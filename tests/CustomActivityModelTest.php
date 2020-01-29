@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace Victordrnd\Activitylog\Test;
 
-use Spatie\Activitylog\Test\Models\Activity;
-use Spatie\Activitylog\Test\Models\InvalidActivity;
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
-use Spatie\Activitylog\Test\Models\AnotherInvalidActivity;
+use Victordrnd\Activitylog\Test\Models\Activity;
+use Victordrnd\Activitylog\Test\Models\InvalidActivity;
+use Victordrnd\Activitylog\Exceptions\InvalidConfiguration;
+use Victordrnd\Activitylog\Test\Models\AnotherInvalidActivity;
 
 class CustomActivityModelTest extends TestCase
 {

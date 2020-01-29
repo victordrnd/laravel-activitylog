@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace Victordrnd\Activitylog\Test;
 
-use Spatie\Activitylog\Test\Models\User;
+use Victordrnd\Activitylog\Test\Models\User;
 
 class CausesActivityTest extends TestCase
 {

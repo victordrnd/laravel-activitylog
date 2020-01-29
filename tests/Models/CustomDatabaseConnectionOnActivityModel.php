@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Models;
+namespace Victordrnd\Activitylog\Test\Models;
 
-use Spatie\Activitylog\Models\Activity;
+use Victordrnd\Activitylog\Models\Activity;
 
 class CustomDatabaseConnectionOnActivityModel extends Activity
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace Victordrnd\Activitylog\Test;
 
 use Auth;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Exceptions\CouldNotLogActivity;
+use Victordrnd\Activitylog\Models\Activity;
+use Victordrnd\Activitylog\Test\Models\User;
+use Victordrnd\Activitylog\Test\Models\Article;
+use Victordrnd\Activitylog\Exceptions\CouldNotLogActivity;
 
 class ActivityLoggerTest extends TestCase
 {

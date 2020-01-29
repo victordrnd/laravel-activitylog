@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Exceptions;
+namespace Victordrnd\Activitylog\Exceptions;
 
 use Exception;
 

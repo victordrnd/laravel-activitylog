@@ -1,20 +1,20 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace Victordrnd\Activitylog\Test;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Traits\LogsActivity;
+use Victordrnd\Activitylog\Models\Activity;
+use Victordrnd\Activitylog\Test\Models\User;
+use Victordrnd\Activitylog\Test\Models\Article;
+use Victordrnd\Activitylog\Traits\LogsActivity;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class LogsActivityTest extends TestCase
 {
-    /** @var \Spatie\Activitylog\Test\Models\Article|\Spatie\Activitylog\Traits\LogsActivity */
+    /** @var \Victordrnd\Activitylog\Test\Models\Article|\Victordrnd\Activitylog\Traits\LogsActivity */
     protected $article;
-    /** @var \Spatie\Activitylog\Test\Models\User|\Spatie\Activitylog\Traits\LogsActivity */
+    /** @var \Victordrnd\Activitylog\Test\Models\User|\Victordrnd\Activitylog\Traits\LogsActivity */
     protected $user;
 
     public function setUp(): void

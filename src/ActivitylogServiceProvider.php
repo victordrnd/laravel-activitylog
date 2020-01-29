@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace Victordrnd\Activitylog;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
-use Spatie\Activitylog\Contracts\Activity;
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
-use Spatie\Activitylog\Models\Activity as ActivityModel;
-use Spatie\Activitylog\Contracts\Activity as ActivityContract;
+use Victordrnd\Activitylog\Contracts\Activity;
+use Victordrnd\Activitylog\Exceptions\InvalidConfiguration;
+use Victordrnd\Activitylog\Models\Activity as ActivityModel;
+use Victordrnd\Activitylog\Contracts\Activity as ActivityContract;
 
 class ActivitylogServiceProvider extends ServiceProvider
 {

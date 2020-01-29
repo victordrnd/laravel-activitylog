@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace Victordrnd\Activitylog\Test;
 
 use CreateActivityLogTable;
 use Illuminate\Support\Arr;
 use Illuminate\Encryption\Encrypter;
 use Illuminate\Support\Facades\Schema;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
+use Victordrnd\Activitylog\Models\Activity;
+use Victordrnd\Activitylog\Test\Models\User;
 use Illuminate\Database\Schema\Blueprint;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use Victordrnd\Activitylog\Test\Models\Article;
+use Victordrnd\Activitylog\ActivitylogServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
