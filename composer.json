@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-activitylog",
+    "name": "victordrnd/laravel-activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
     "homepage": "https://github.com/spatie/activitylog",
     "keywords": [
@@ -26,6 +26,12 @@
             "name": "Tom Witkowski",
             "email": "dev.gummibeer@gmail.com",
             "homepage": "https://gummibeer.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Victor Durand",
+            "email": "contact@victordurand.fr",
+            "homepage": "https://victordurand.fr",
             "role": "Developer"
         }
     ],
